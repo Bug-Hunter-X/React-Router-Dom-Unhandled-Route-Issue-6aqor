@@ -1,0 +1,1 @@
+This example demonstrates an unhandled route issue in React Router Dom v6.  When navigating to an invalid URL (any route not defined in the Routes component), React Router will throw an error, resulting in a broken user experience. This repository provides a solution by implementing a catch-all route to handle those cases, improving user experience.
